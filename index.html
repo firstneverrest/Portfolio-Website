@@ -6,13 +6,16 @@
     <meta name="author" content="Chitsanupong Tangvasinkul">
     <meta name="description" content="My Portfolio">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ba40acfd49.js" crossorigin="anonymous"></script>
 </head>
 <body id="top">
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
     <div class="container">
         <div class="header">
             <div class="nav">
@@ -41,9 +44,9 @@
         </div>
         <div id="about-link"></div>
         <div class="content">
-            <div id="about-head" data-aos="fade-right" data-aos-duration="1000"><h1>ABOUT ME</h1></div>
-            <div class="mypic" data-aos="fade-right" data-aos-duration="1000"><img id="myimg" src="./image/profile.jpg"></div>
-            <div class="profile" data-aos="fade-left" data-aos-duration="1500">
+            <div id="about-head" data-aos="fade-right" data-aos-duration="800"><h1>ABOUT ME</h1></div>
+            <div class="mypic" data-aos="fade-right" data-aos-duration="800"><img id="myimg" src="./image/profile.jpg"></div>
+            <div class="profile" data-aos="fade-left" data-aos-duration="800">
                 <h2>PROFILE</h2>
                 <p>A strong enthusiastic student with a passion for web application development seeking to leverage programming skill as a front-end developer.
                     <br><br>I'm a junior computer science student at the Chulalongkorn University. My training and experience in the field of computer programming,
@@ -54,7 +57,7 @@
                 <h2>INTEREST</h2>
                 <p>Web Development, Mobile Application, AI and IoT</p>
             </div>
-            <div class="education" data-aos="fade-right" data-aos-duration="1000">
+            <div class="education" data-aos="fade-right" data-aos-duration="800">
                 <h2>EDUCATION</h2>
                 <ul id="education">
                     <li><i class="fas fa-school"></i>2010 Yindeewit school</li>
@@ -64,8 +67,8 @@
             </div>
             <div id="skill-link"></div>
             <div class="skill">
-                <div id="skill-head" data-aos="fade-right" data-aos-duration="1000"><h1>SKILL</h1></div>
-                <div class="skill-" data-aos="fade-left" data-aos-duration="1000">
+                <div id="skill-head" data-aos="fade-right" data-aos-duration="900"><h1>SKILL</h1></div>
+                <div class="skill-" data-aos="fade-left" data-aos-duration="900">
                     <div class="skill-1"><i class="fab fa-html5"></i><h2>HTML</h2><p>A hypertext markup language used for defining the structure of web pages.</p></div>
                     <div class="skill-2"><i class="fab fa-css3-alt"></i><h2>CSS</h2><p>A style sheet language used for defining the presentation of web pages such as layout, color, font, etc.</p></div>
                     <div class="skill-3"><i class="fab fa-js"></i><h2>JavaScript</h2><p>A programming language which can be used to modify website content and response to user's action. </p></div>
@@ -79,11 +82,11 @@
             </div>
             <div id="project-link"></div>
             <div class="projects" id="projects" >
-                <div data-aos="fade-right" data-aos-duration="1000">
+                <div data-aos="fade-right" data-aos-duration="900">
                     <h1 id="project-head">PROJECTS</h1>
                     <p>During studying time at the Chulalongkorn University, I have completed three projects which related to web development and games. </p>
                 </div>
-                <div class="project" data-aos="fade-left" data-aos-duration="1000">
+                <div class="project" data-aos="fade-left" data-aos-duration="900">
                     <div class="projectnum-1">
                         <div class="project-image"><img src="./image/projectnum-1.jpg" alt="sneak sleep game image"></div>
                         <h2>Sneak Sleep Game</h2>
@@ -106,7 +109,7 @@
             </div>
             <div id="contact-link"></div>
             <div class="contact" id="contact">
-                <h1 id="contact-head" data-aos="fade-right" data-aos-duration="1000">CONTACT</h1>
+                <h1 id="contact-head" data-aos="fade-right" data-aos-duration="900">CONTACT</h1>
                 <div data-aos="fade-left" data-aos-duration="1000">
                     <p><i class="fas fa-envelope"></i> c.tangvasinkul@gmail.com</p>
                     <p><i class="fas fa-phone-alt"></i> 085-939-2573</p>
@@ -120,7 +123,7 @@
             <a href="https://www.facebook.com/firstnasa/" target="_blank"><i class="fab fa-facebook-square"></i></a>
             <a href="https://www.instagram.com/first.neverrest/" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://github.com/firstneverrest" target="_blank"><i class="fab fa-github"></i></a>
-            <hr/>
+            <br><br>
             <p id="copyright">Copyright &copy; 2020 First Chitsanupong</p>
         </div>
     </div>
