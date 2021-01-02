@@ -163,7 +163,7 @@ ul.sidenav li a:hover::after {
 
 .header {
   margin-bottom: 10px;
-  background: url('/image/intro.jpg') no-repeat;
+  background: url('../image/intro.jpg') no-repeat;
   background-size: cover;
   background-position: bottom;
   height: 100vh;
@@ -221,19 +221,25 @@ div[class*=projectnum-] {
   margin: 0 10px;
   margin-bottom: 20px;
   box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.2);
-  overflow: hidden;
 
+}
+.project h2 {
+  padding-top: 4px;
+  font-weight: bold;
 }
 
 .project-image {
   width: 100%;
-  height: 55%;
+  height: 200px;
   overflow: hidden;
+
 }
 
 .project-image img {
   width: 100%;
   transition: transform .2s; 
+  height: 100%;
+  object-fit: cover;
 }
 
 .project-image img:hover {
@@ -244,13 +250,17 @@ div[class*=projectnum-] {
   grid-column: span 4;
   margin-bottom: 10px;
   grid-row: span 1;
-  box-shadow: 0 3px 1rem rgba(0, 0, 0, 0.2);
-
+  overflow: hidden;
 }
 
 #myimg {
-  max-width: 100%;
+  max-width: 110%;
   max-height: 100%;
+  transition: transform .2s; 
+}
+
+#myimg:hover {
+  transform: scale(1.1);
 }
 
 #arrow-down {
@@ -366,6 +376,11 @@ div[class*=projectnum-] {
 
 .skill- img {
   padding-top: 20px;
+}
+
+.skill p {
+  text-align: initial;
+  text-justify: initial;
 }
 
 .skill i {
@@ -494,14 +509,15 @@ hr {
   .mypic {
     grid-column: span 4;
   }
+  #myimg {
+    width: 100%;
+    height: 255px;
+    object-fit: cover;
+  }
 
   .education {
     grid-column: span 4;
   }
-
-  /* .skill i {
-    font-size: px;
-  } */
 
   #text-intro {
     font-size: 32px;
@@ -511,6 +527,14 @@ hr {
 
   .content {
     max-width: 800px;
+  }
+  
+  .project-image {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+    object-position: top;
+    
   }
 }
 
@@ -593,17 +617,21 @@ hr {
   .project {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    height: 700px;
+    height: 730px;
   }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
   .profile {
     grid-column: span 12;
   }
 
   .mypic {
     grid-column: span 12;
+  }
+
+  #myimg {
+    height: 350px;
   }
 
   .education {
@@ -661,11 +689,13 @@ hr {
   div[class*=projectnum-] {
     margin: 0 30px;
     margin-bottom: 20px;
-
+    max-height: 1000px;
+    
   }
 
   .project-image {
     width: 95%;
+    height: 230px;
   }
   
 }

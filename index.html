@@ -6,7 +6,7 @@
     <meta name="author" content="Chitsanupong Tangvasinkul">
     <meta name="description" content="My Portfolio">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@
         <div id="about-link"></div>
         <div class="content">
             <div id="about-head" data-aos="fade-right" data-aos-duration="1000"><h1>ABOUT ME</h1></div>
-            <div class="mypic" data-aos="fade-right" data-aos-duration="1000"><img id="myimg" src="/image/profile.jpg"></div>
+            <div class="mypic" data-aos="fade-right" data-aos-duration="1000"><img id="myimg" src="./image/profile.jpg"></div>
             <div class="profile" data-aos="fade-left" data-aos-duration="1500">
                 <h2>PROFILE</h2>
                 <p>A strong enthusiastic student with a passion for web application development seeking to leverage programming skill as a front-end developer.
@@ -66,53 +66,60 @@
             <div class="skill">
                 <div id="skill-head" data-aos="fade-right" data-aos-duration="1000"><h1>SKILL</h1></div>
                 <div class="skill-" data-aos="fade-left" data-aos-duration="1000">
-                    <div class="skill-1"><i class="fab fa-html5"></i><h2>HTML</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
-                    <div class="skill-2"><i class="fab fa-css3-alt"></i><h2>CSS</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
-                    <div class="skill-3"><i class="fab fa-js"></i><h2>JavaScript</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
-                    <div class="skill-4"><img src="https://img.icons8.com/ios-filled/100/000000/jquery.png"/><h2>jQuery</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
-                    <div class="skill-5"><i class="fab fa-node"></i><h2>Node.js</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
-                    <div class="skill-6"><i class="fab fa-react"></i><h2>React</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
-                    <div class="skill-7"><i class="fab fa-git-alt"></i><h2>Git</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
-                    <div class="skill-8"><i class="fab fa-docker"></i><h2>Docker</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
-                    <div class="skill-9"><img src="https://img.icons8.com/material/100/000000/adobe-xd.png"/><h2>Adobe XD</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ipsa.</p></div>
+                    <div class="skill-1"><i class="fab fa-html5"></i><h2>HTML</h2><p>A hypertext markup language used for defining the structure of web pages.</p></div>
+                    <div class="skill-2"><i class="fab fa-css3-alt"></i><h2>CSS</h2><p>A style sheet language used for defining the presentation of web pages such as layout, color, font, etc.</p></div>
+                    <div class="skill-3"><i class="fab fa-js"></i><h2>JavaScript</h2><p>A programming language which can be used to modify website content and response to user's action. </p></div>
+                    <div class="skill-4"><img src="https://img.icons8.com/ios-filled/100/000000/jquery.png"/><h2>jQuery</h2><p>A JavaScript library which make it much easier to use JavaScript on the website.</p></div>
+                    <div class="skill-5"><i class="fab fa-node"></i><h2>Node.js</h2><p>An open-source, cross-platform, back-end, JavaScript runtime environment that executes JavaScript code outside a web browser.</p></div>
+                    <div class="skill-6"><i class="fab fa-react"></i><h2>React</h2><p>A JavaScript library which is used to build web user interfaces and components</p></div>
+                    <div class="skill-7"><i class="fab fa-git-alt"></i><h2>Git</h2><p>A distributed version control system used for tracking and managing changes to software code.</p></div>
+                    <div class="skill-8"><i class="fab fa-docker"></i><h2>Docker</h2><p>A software platform for building applications based on containers.</p></div>
+                    <div class="skill-9"><img src="https://img.icons8.com/material/100/000000/adobe-xd.png"/><h2>Adobe XD</h2><p>A software used for creating wireframes, prototypes, and screen designs for digital products such as websites and mobile apps.</p></div>
                 </div>
             </div>
             <div id="project-link"></div>
-            <div class="projects" id="projects">
-                <h1 id="project-head">PROJECTS</h1>
-                <p>During studying time at the Chulalongkorn University, I have completed three projects which related to web development and games. </p>
-                <div class="project">
+            <div class="projects" id="projects" >
+                <div data-aos="fade-right" data-aos-duration="1000">
+                    <h1 id="project-head">PROJECTS</h1>
+                    <p>During studying time at the Chulalongkorn University, I have completed three projects which related to web development and games. </p>
+                </div>
+                <div class="project" data-aos="fade-left" data-aos-duration="1000">
                     <div class="projectnum-1">
-                        <div class="project-image"><img src="https://images.unsplash.com/photo-1601037055952-0651d4833621?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="sneak sleep game image"></div>
+                        <div class="project-image"><img src="./image/projectnum-1.jpg" alt="sneak sleep game image"></div>
                         <h2>Sneak Sleep Game</h2>
-                        <p>A causal pixel art desktop game using C# and Unity which created in two months with my teams.<br><a href="#">Click to download game</a></p> 
+                        <p>A causal pixel art desktop game using C# and Unity which created in two months with my teams.<br>
+                            <a href="https://drive.google.com/drive/folders/1tZ0vphwvA-gR2EY6EwjcybIDnmM5hFUg" target="_blank">Click to download game</a></p> 
                     </div>
                     <div class="projectnum-2">
-                        <div class="project-image"><img src="https://images.unsplash.com/photo-1515664952592-0891e0d5f2d0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="ToDo List image"></div>
+                        <div class="project-image"><img src="./image/projectnum-2.jpg" alt="ToDo List image"></div>
                         <h2>TODO List Application</h2>
-                        <p>TODO List web application created by HTML, CSS and JavaScript.<br><a href="#">Click to open TODO List application</a></p>
+                        <p>TODO List web application created by HTML, CSS and JavaScript.<br>
+                            <a href="https://firstneverrest.github.io/neverrest-todolist.github.io/" target="_blank">Click to open TODO application</a></p>
                     </div>
                     <div class="projectnum-3">
-                        <div class="project-image"><img src="https://images.unsplash.com/photo-1601037055952-0651d4833621?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="Portfolio Website image"></div>
+                        <div class="project-image"><img src="./image/projectnum-3.jpg" alt="Portfolio Website image"></div>
                         <h2>Portfolio Website</h2>
-                        <p>My portfolio website created by HTML, CSS, JavaScript and jQuery which is this website.<br><a href="#">Click to open my portfolio</a></p>
+                        <p>My portfolio website created by HTML, CSS, JavaScript and jQuery which is this website.<br>
+                            <a href="#" target="_blank">Click to open my portfolio</a></p>
                     </div>
                 </div>
             </div>
             <div id="contact-link"></div>
             <div class="contact" id="contact">
-                <h1 id="contact-head">CONTACT</h1>
-                <p><i class="fas fa-envelope"></i> c.tangvasinkul@gmail.com</p>
-                <p><i class="fas fa-phone-alt"></i> 085-939-2573</p>
-                <p><i class="fab fa-github"></i>&nbsp;&nbsp; firstneverrest</p>
-                <p><i class="fas fa-map-marker-alt"></i>&nbsp; Samut Pakarn, Thailand</p>
+                <h1 id="contact-head" data-aos="fade-right" data-aos-duration="1000">CONTACT</h1>
+                <div data-aos="fade-left" data-aos-duration="1000">
+                    <p><i class="fas fa-envelope"></i> c.tangvasinkul@gmail.com</p>
+                    <p><i class="fas fa-phone-alt"></i> 085-939-2573</p>
+                    <p><i class="fab fa-github"></i>&nbsp;&nbsp; firstneverrest</p>
+                    <p><i class="fas fa-map-marker-alt"></i>&nbsp; Samut Pakarn, Thailand</p>
+                </div>
             </div>
         </div>
         <div class="footer">
             <h2>Follow Me</h2>
-            <a href="#"><i class="fab fa-facebook-square"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/firstnasa/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+            <a href="https://www.instagram.com/first.neverrest/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://github.com/firstneverrest" target="_blank"><i class="fab fa-github"></i></a>
             <hr/>
             <p id="copyright">Copyright &copy; 2020 First Chitsanupong</p>
         </div>
