@@ -695,8 +695,9 @@ div[class*="skill-"] {
   #arrow-down::after {
     height: 26px;
     width: 26px;
-}
 
+  }
+}
 @media screen and (max-width: 500px) {
   #arrow-down {
     right: 36%;
@@ -707,4 +708,5 @@ div[class*="skill-"] {
   #arrow-down {
     right: 30%;
   }
-} 
+}
+ 
