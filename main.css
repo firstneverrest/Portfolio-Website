@@ -192,7 +192,8 @@ ul.sidenav li a:hover::after {
 .project {
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  height: 400px;
+  grid-template-rows: 400px 400px;
+  height: 800px;
   padding-bottom: 0;
   margin-bottom: 0;
 }
@@ -596,7 +597,7 @@ div[class*="skill-"] {
   .project {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    height: 730px;
+    height: 800px;
   }
 
   .scrolling-active {
@@ -672,7 +673,7 @@ div[class*="skill-"] {
 
   .project {
     grid-template-columns: repeat(1,1fr);
-    height: 1180px;
+    height: 1600px;
   }
 
   div[class*=projectnum-] {
