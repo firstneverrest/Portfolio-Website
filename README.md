@@ -8,8 +8,8 @@ My portfolio website (my first website) displays my profile and skill using basi
 ![image](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 
 ### Dependency
-- typed.js - create amazing typing effect on my page [more info about typed.js](https://github.com/mattboldt/typed.js/)
-- AOS (Animate On Scroll Library) - create wonderful fade in effect from left or right side [more info about aos](https://michalsnik.github.io/aos/)
+- typed.js - create amazing typing effect on my page. [more info about typed.js](https://github.com/mattboldt/typed.js/)
+- AOS (Animate On Scroll Library) - create wonderful fade in effect from left or right side. [more info about aos](https://michalsnik.github.io/aos/)
 
 ### Description
 - Created dynamic navigation using flexbox and jQuery when scroll down the color will be changed to match with surrounding
