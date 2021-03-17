@@ -1,6 +1,6 @@
 # My Portfolio-Website
 ![image](https://github.com/firstneverrest/Portfolio-Website/blob/master/portfolio-thumbnail.jpg)
-My portfolio website (my first website) displays my profile and skill using basic website technologies.✨
+My portfolio website (my first website) displays my profile and skill using basic website technologies. You can access my portfolio by this link [My Profolio-Website](https://firstneverrest.github.io/Portfolio-Website/).✨
 ### Technologies
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
